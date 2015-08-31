@@ -1,4 +1,5 @@
-//testing connection
+
+//v 1.0.0
 
 function by(name){
   return function(o,p){
@@ -40,3 +41,10 @@ function convert(array){
    }
    return ar;
 }
+
+/////test
+  var test = ['pas','abc','aps','bac','1345','4531','23','a','cb'];
+  var objectArr = convert(test);console.log("objectArr : ",objectArr);
+  objectArr.sort(by("Sortkey"));
+  
+  for(var i = 0;i < objectArr.length;i++)console.log(objectArr[i].value);
