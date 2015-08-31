@@ -43,7 +43,7 @@ function convert(array){
 }
 
 /////test
-  var test = ['pas','abc','aps','bac','1345','4531','23','a','cb'];
+  var test = ['p1a2s','abc','12aps','bac','1345','4531','23','a','cb','1pas','as12s'];
   var objectArr = convert(test);console.log("objectArr : ",objectArr);
   objectArr.sort(by("Sortkey"));
   
